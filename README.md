@@ -1,7 +1,11 @@
 # Local_Judge
 In competitive programming, stress testing is a technique of testing your solution on a multitude of random test cases to find possible bugs and problems in the code.
 
-Often, stress testing is performed with the help of a "stupid" brute-force solution for the problem, that may work correctly only on small test cases. The output of your solution is then compared against the output of the stupid solution to find possible mismatches.
+Often, stress testing is performed with the help of a brute-force solution for the problem, that may work correctly only on small test cases. The output of your solution is then compared against the output of the naive solution to find possible mismatches.
+
+## Random Number Generator
+Here `test_generator.cpp` uses [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister) to generate random numbers
+and [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) to shuffle elements of array (if necessary)
 
 ## Running on local linux machine 
 Run the bash command `bash test.sh` it terminates when the output files differ, to force terminate use `Ctrl + C`
