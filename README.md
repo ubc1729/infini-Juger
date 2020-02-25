@@ -20,3 +20,7 @@ Run the bash command `bash test.sh` it terminates when the output files differ, 
 
 ## References
 - [ADJA's blog](http://www.algos.school/stress-testing)
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
