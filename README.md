@@ -1,4 +1,4 @@
-# Local_Judge
+# infini-Juger
 In competitive programming, stress testing is a technique of testing your solution on a multitude of random test cases to find possible bugs and problems in the code.
 
 Often, stress testing is performed with the help of a brute-force solution for the problem, that may work correctly only on small test cases. The output of your solution is then compared against the output of the naive solution to find possible mismatches.
