@@ -187,11 +187,12 @@ void unique_arr(ll* arr, ll n, ll a, ll b)
 
 void generate()
 {
-  ll n = random(1,100);
+  ll n = random(1, 100);
+  ll k = random(2, 100);
+  cout << n << endl;
   vl v;
-  random_v(v,n,1,50);
-  cout<<n<<endl;
-  print_v(v, n);
+  random_v(v,n,0,10000);
+  print_v(v,n);
 }
 
 signed main()
@@ -202,8 +203,10 @@ signed main()
     cin.tie(NULL);
     cout.tie(NULL);
 
+    #ifndef ONLINE_JUDGE
     freopen("input.txt", "w", stdout);
-
+    #endif
+    
     //cout<<fixed<<setprecision(15);
 
     ll test = 1;
